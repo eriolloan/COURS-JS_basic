@@ -1,0 +1,15 @@
+class Book {
+    constructor(title, author, pages, hasBeenRead){
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.hasBeenRead = hasBeenRead;
+    }
+};
+
+mBook = new Book("Mon Livre", "Adrien Facélina", 245, true);
+
+console.log(myBook.title);
+console.log(myBook.author);
+console.log(myBook.pages);
+console.log(myBook.hasBeenRead);
